@@ -1,7 +1,7 @@
 ---
 title:  "Tools Not Taught: Essential Tools for Economists"
 author: "NTU ECON"
-date:   "2023 Summer"
+date:   "2023-06-26"
 ---
 
 This is a lecture series that introduces econ students to essential tools that are often not taught in class.
