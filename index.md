@@ -1,20 +1,62 @@
 ---
 title:  "Tools Not Taught: Essential Tools for Economists"
 author: "NTU ECON"
-date:   "2023-06-26"
+date:   "2023 Summer"
 ---
+
+This is a lecture series that introduces econ students to essential tools that are often not taught in class.
+In particular, we introduce two programs: [**LaTeX**](#latex) and [**R**](#r).
+After this lecture series,
+you will have a *solid foundational knowledge* about these tools
+and have the *ability to learn more* about these tools on your own.
+
+The following are outlines of this series.
 
 # LaTeX
 
+All demonstrations and work will be on [Overleaf](https://www.overleaf.com), 
+an online environment for LaTeX.
+There is no need to prepare an environment for LaTeX in your computer.
+
+## Lectures
+
+1.  **Easy in Word, Easy in LaTeX**:
+   Tasks easy to do in Word are also easy to do in LaTeX.
+   We will introduce basic latex article structures, 
+   fonts and basic commands (including importing pictures).
+   A useful `.sty` file will be provided. 
+   After this lecture, you will be able to type both
+   Chinese and English articles using Overleaf and LaTeX.
+
+2. **Doable in Word, Easy in LaTeX**:
+   Tasks doable in Word are often easy to do in LaTeX.
+   We will introduce math modes (display and inline) and basic 
+   math symbols in LaTeX. 
+   Useful commands and environments (including those provided by `amsmath` and `amsthm`) will be introduced. 
+   We will also teach you how to define your own commands.
+   After this lecture, you will be able to type neat mathematical 
+   articles.
+
+3. **Painful in Word, Easy in LaTeX**:
+   Tasks painful to do in Word are still easy to do in LaTeX.
+   We will introduce some really useful features of LaTeX:
+   references, links and bibliography. An example of `.bib` file 
+   will be given. 
+   If time is allowed, we will show how to 
+   adjust the original `.sty` file to make articles of your own style.
+   After this lecture, you will be able to type neat academic
+   articles.
+
 # R
 
-Unlike $\LaTeX$, there is no online environment to use R,
+Unlike LaTeX, there is no online environment to use R,
 so be sure to install R on you laptop before you come.
 If you have never used R before,
 it is recommended that you install [Rstudio](https://posit.co/download/rstudio-desktop/) and follow the instructions on the website.
 
 You can find the lecture codes and homework sets [**here**](https://github.com/tools-not-taught/intro-to-R).
-It is advised that you first clone the whole repository down instead of downloading the code lecture-by-lecture.
+It is advised that you first clone the whole repository down,
+instead of downloading the code lecture-by-lecture.
 
 ## Lectures
 
@@ -36,14 +78,14 @@ It is advised that you first clone the whole repository down instead of download
    which provides a modern way to use R.
    In particular, you will be introduced to the package [`dplyr`](https://dplyr.tidyverse.org/),
    which is contained in [`tidyverse`](https://www.tidyverse.org/packages/).
-   [`dplyr`](https://dplyr.tidyverse.org/) provides a "work flow" that is very useful in *manipulating*, *transforming*, and *mutating* *data frames*.
+   [`dplyr`](https://dplyr.tidyverse.org/) provides a "work flow" that is very useful in
+   *manipulating*, *transforming*, and *mutating* *data frames*.
    After this lecture, you will be able to work on data sets efficiently.
 
    - *Links*:
         - [`dplyr` cheat sheet](https://posit.co/wp-content/uploads/2022/10/data-transformation-1.pdf)
         - [`dplyr` grammar](https://dplyr.tidyverse.org/)
         - [`dplyr` vignette](https://dplyr.tidyverse.org/articles/dplyr.html)
-
            
 2. **Plotting**:
    In this lecture, you will be introduced to the package [`ggplot2`](https://ggplot2.tidyverse.org/),
