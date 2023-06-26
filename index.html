@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="NTU ECON" />
+  <meta name="dcterms.date" content="2023-06-26" />
+  <title>Tools Not Taught: Essential Tools for Economists</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Tools Not Taught: Essential Tools for Economists</h1>
+<p class="author">NTU ECON</p>
+<p class="date">2023-06-26</p>
+</header>
+<h1 data-number="1" id="latex"><span
+class="header-section-number">1</span> LaTeX</h1>
+<h1 data-number="2" id="r"><span class="header-section-number">2</span>
+R</h1>
+<p>Unlike <span class="math inline">\(\LaTeX\)</span>, there is no
+online environment to use R, so be sure to install R on you laptop
+before you come. If you have never used R before, it is recommended that
+you install <a
+href="https://posit.co/download/rstudio-desktop/">Rstudio</a> and follow
+the instructions on the website.</p>
+<p>You can find the lecture codes and homework sets <a
+href="https://github.com/tools-not-taught/intro-to-R"><strong>here</strong></a>.
+It is advised that you first clone the whole repository down instead of
+downloading the code lecture-by-lecture.</p>
+<h2 data-number="2.1" id="lectures"><span
+class="header-section-number">2.1</span> Lectures</h2>
+<ol start="0" type="1">
+<li><p><strong>Base R</strong>: In this lecture you will learn about the
+<em>bare basics of R</em>, including: basic syntax, data types,
+vectorization, arithmetics, packages, et cetera. After this lecture, you
+will be able to do simple tasks in R.</p>
+<ul>
+<li><em>Links</em>:
+<ul>
+<li><a href="https://adv-r.hadley.nz/">Advanced R</a> is useful for
+those who want to know more about technical details of R.</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Data Wrangling</strong>: In this lecture, you will be
+introduced to the package <a
+href="https://www.tidyverse.org/packages/"><code>tidyverse</code></a>,
+which provides a modern way to use R. In particular, you will be
+introduced to the package <a
+href="https://dplyr.tidyverse.org/"><code>dplyr</code></a>, which is
+contained in <a
+href="https://www.tidyverse.org/packages/"><code>tidyverse</code></a>.
+<a href="https://dplyr.tidyverse.org/"><code>dplyr</code></a> provides a
+“work flow” that is very useful in <em>manipulating</em>,
+<em>transforming</em>, and <em>mutating</em> <em>data frames</em>. After
+this lecture, you will be able to work on data sets efficiently.</p>
+<ul>
+<li><em>Links</em>:
+<ul>
+<li><a
+href="https://posit.co/wp-content/uploads/2022/10/data-transformation-1.pdf"><code>dplyr</code>
+cheat sheet</a></li>
+<li><a href="https://dplyr.tidyverse.org/"><code>dplyr</code>
+grammar</a></li>
+<li><a
+href="https://dplyr.tidyverse.org/articles/dplyr.html"><code>dplyr</code>
+vignette</a></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Plotting</strong>: In this lecture, you will be
+introduced to the package <a
+href="https://ggplot2.tidyverse.org/"><code>ggplot2</code></a>, which is
+also a package contained in <a
+href="https://www.tidyverse.org/packages/"><code>tidyverse</code></a>.
+<a href="https://ggplot2.tidyverse.org/"><code>ggplot2</code></a>
+provides a “work flow” that can <em>create complex</em> and <em>elegant
+plots</em> with <em>simple commands</em>. After this lecture, you will
+be able to create all types of plots with ease.</p>
+<ul>
+<li><em>Links</em>:
+<ul>
+<li><a
+href="https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf"><code>ggplot2</code>
+cheat sheet</a></li>
+<li><a href="https://ggplot2-book.org/"><code>ggplot2</code>: Elegant
+Graphics for Data Analysis (3e)</a></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Simulations</strong>: In this lecture, you will be
+introduced to what R was originally made for: <em>statistics</em>. In
+particular, will learn how to sample from different distributions and
+perform simulations. We will provide three examples:</p>
+<ul>
+<li>Consistent v.s. Unbiased</li>
+<li>Maximum Likelihood Estimation</li>
+<li>Markov Chain Monte Carlo</li>
+</ul>
+<p>to demonstrate how these statistical tools are used. After this
+lecture, you will be able to perform simulations and have a deeper
+understanding of some statistical concepts.</p>
+<ul>
+<li><em>Links</em>:</li>
+</ul></li>
+</ol>
+</body>
+</html>
